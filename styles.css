@@ -1,12 +1,12 @@
 /* primary font  */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans&display=swap');
 
-/* common style */
+/* common styles */
 body{
     font-family: 'Poppins', sans-serif;
     
 }
-/* header style  */
+/* header styles */
 .header{
      width: 1920px;
     height: 1322px;
@@ -49,7 +49,7 @@ margin-bottom: 10px;
  .bt{
     margin-right: 180px;
 }
-.header-dis{
+.header-des{
     font-weight: 400;
     font-size: 16px;
     color: #727272;
@@ -60,6 +60,7 @@ font-size: 20px;
 color: #FFFFFF;
 width: 180px;
 height: 64px;
+margin-left: 150px;
 background: #FF900E;
 border-radius: 8px;
 }
@@ -67,13 +68,13 @@ border-radius: 8px;
 .header-info{
     text-align: center;
 }
-/* banner style  */
+/* banner styles */
 .img{
-    margin: 50px 140px 30px 80px;
+    margin: 50px 140px 30px 180px;
 }
 
-/* team style  */
-.more-flex{
+/* team styles */
+.team-images{
     display: flex;
     margin-bottom: 100px;
 }
@@ -85,7 +86,7 @@ border-radius: 8px;
    margin: 100px 0px 0px 150px;
 }
 
-/* Quick-list style  */
+/* Quick-list styles */
 .Quick-list{
     margin-right: 300px;
     margin-left: 73px;
@@ -108,14 +109,14 @@ font-weight: 700;
 font-size: 45px;
 color: #FF900E;
 }
-.Q-dis{
+.Q-des{
 font-weight: 400;
 font-size: 16px;
 color: #727272;
 
 }
-/* version style  */
-.need-flex{
+/* version styles */
+.team-flex{
     display: flex;
     margin: 100px 240px 0px 70px ;
 }
@@ -130,7 +131,7 @@ margin-bottom: 24px;
 
 
 }
-.sec-dis{
+.sec-des{
     font-weight: 400;
     font-size: 16px;
     color: #727272;
@@ -149,7 +150,7 @@ font-weight: 600;
 font-size: 20px;
 color: #131313;
 }
-.header-vs-dis{
+.header-vs-des{
 font-weight: 400;
 font-size: 16px;
 color: #727272;
@@ -179,12 +180,12 @@ color: #FFFFFF;
 padding: 0px 50px 50px 50px ;
 }
 
-/* some fact  style */
+/* some fact  styles*/
 .some-fact{
     margin: 100px;
 }
 
-.fact-dis{
+.fact-des{
 font-weight: 400;
 font-size: 16px;
 color: #727272;
@@ -198,7 +199,7 @@ font-size: 45px;
 color: #131313;
 margin-bottom: 24px;
 }
-.fact-dis{
+.fact-des{
     font-weight: 400;
     font-size: 16px;
     color: #727272;
@@ -213,7 +214,7 @@ justify-content: center;
 padding-top: 45px;
 
 }
-.icon-title, .icon-dis{
+.icon-title, .icon-des{
     font-weight: 600;
     color: #424242;
 
@@ -223,31 +224,31 @@ padding-top: 45px;
     grid-template-columns: repeat(4,1fr);
 }
 
-/* Our Sponspors  */
-.sopns-head{
+/* Our Sponsors */
+.sponsor-head{
     text-align: center;
     margin-left: 500px;
     margin-right: 500px;
 }
-.spons-title{
+.sponsor-title{
     font-weight: 700;
     
     color: #131313;
     
 }
-.sopns-dis{
+.sponsor-des{
     font-weight: 400;
     font-size: 16px;
     color: #727272;
 }
-.sopns-company{
+.sponsor-company{
     display: flex;
     filter: grayscale(100%);
     justify-content: space-between;
     margin: 100px;
 }
 
-/* footer style  */
+/* footer styles */
 .footer{
     margin: 100PX;
  width: 1440px;
@@ -264,7 +265,3 @@ color: #424242;
 padding: 39px 400px 38px 300px;
     
 }
-
- /*---------------
-  media  queries
-  ----------------*/
